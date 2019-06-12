@@ -5,7 +5,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
     padding: 0;
     border: 0;
 }
-
+.topnav{
+  display: flex;
+  justify-content:
+}
 * {
     box-sizing: border-box;
 }
@@ -146,7 +149,7 @@ img {
 		justify-content: space-around;
 	}
 
-	nav li{
+	nav a{
 		flex-grow:1;
 		height:3rem;
 		text-align: center;
@@ -890,7 +893,10 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+    display: block;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
