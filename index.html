@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script type="text/javascript" src="js/myscript.js">
+
+	</script>
+	<title>YeOld Bookshop</title>
+</head>
+
+<body>
+	<header>
+		<p id="logo">YeOld Bookshop</p>
+		<form action="featured-author-book.html">
+			<input class="search-bar" type="text" value="">
+			<input class="search-bottom" type="submit" value="Search">
+		 </form>
+	</header>
+
+	<nav>
+		<div class="topnav" id="myTopnav">
+		  <a href="#home" class="active">Home</a>
+		  <a href="#news">News</a>
+		  <a href="#contact">Contact</a>
+		  <a href="#about">About</a>
+		  <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction()">
+				<div class="containerIcon" id="myIcon">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+		  </a>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!-- <ul>
+			<li class="selected"><a href="index.html">Home</a></li>
+			<li><a href="about-us.html">About Us</a></li>
+			<li><a href="featured-author-book.html">Featured Author/Book</a></li>
+			<li><a href="restorations.html">Restorations</a></li>
+			<li><a href="valuation.html">Valuation</a></li>
+			<li><a href="enquiry.html">Enquiry</a></li>
+		</ul> -->
+	</nav>
+
+	<div class="content">
+		<aside class="new-aside">
+			<h2>New Arrivals</h2>
+				<div>
+					<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
+					<p><a href="book-instruction.html">To Kill a Mockingbird</a></p>
+				</div>
+
+				<div>
+					<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
+					<p><a href="book-instruction.html">Alice in Wonderland</a></p>
+				</div>
+
+			<h3 id="view-more"><a href="new-arrivals.html">View more</a></h3>
+
+		</aside>
+
+		<main>
+			<div class="slideshow-container">
+				<div class="mySlides">
+					<img src="images/main1.jpg" alt="">
+				</div>
+
+				<div class="mySlides">
+					<img src="images/main2.jpg" alt="">
+				</div>
+
+				<div class="mySlides">
+					<img src="images/main3.jpg" alt="">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+
+			<div style="text-align: center;">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+		</main>
+
+		<div class="featured-aside">
+			<h2>Featured Book</h2>
+
+			<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
+
+			<p><span id="italic-bold">To Kill a Mockingbird</span> is Harper Lee’s 1961 Pulitzer Prize-winning novel about a child’s view of race and justice in the Depression-era South. </p>
+
+			<h3><a href="featured-author-book.html">Learn more...</a></h3>
+		</div>
+
+		<div class="contact-us">
+			<div class="location">
+				<p>Location information:</p>
+				<p>119 Colombo Street,Sydenham,Christchurch 8023</p>
+			</div>
+
+			<div class="email-phone-time">
+				<P>Email address: enquire@yeoldbookshop</p>
+				<P>Phone number: 03 – 3648833</p>
+				<p>Open time: 9am-5pm, 7 days a week.</p>
+			</div>
+
+			<div class="share-link">
+				<a href="https://www.facebook.com/"><img class="logo" src="images/facebook.png" alt="Facebook logo"></a>
+
+				<a href="https://twitter.com/"><img class="logo" src="images/twitter.png" alt="Twitter logo"></a>
+
+				<a href="https://www.instagram.com/"><img class="logo" src="images/instagram.png" alt="Instagram logo"></a>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Copyright 2019 Strand Books All Rights Reserved / Privacy Policy</p>
+	</footer>
+
+</body>
+</html>

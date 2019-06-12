@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Enquiry</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+	<header>
+		<p id="logo">YeOld Bookshop</p>  
+		<form action="featured-author-book.html">
+			<input class="search-bar" type="text" value="">
+			<input class="search-bottom" type="submit" value="Search">
+		 </form>			
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about-us.html">About Us</a></li>
+			<li><a href="featured-author-book.html">Featured Author/Book</a></li>
+			<li><a href="restorations.html">Restorations</a></li>
+			<li><a href="valuation.html">Valuation</a></li>
+			<li class="selected"><a href="enquiry.html">Enquiry</a></li>
+		</ul>
+	</nav>
+	
+	<div class="content">
+		<aside class="new-aside">
+			<h2>New Arrivals</h2>
+			
+				<div>
+					<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
+					<p><a href="book-instruction.html">To Kill a Mockingbird</a></p>
+				</div>
+				<div>
+					<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
+					<p><a href="book-instruction.html">Alice in Wonderland</a></p>
+				</div>
+		
+			<h3 id="view-more"><a href="new-arrivals.html">View more</a></h3>
+		</aside>
+		
+		<div class="enquiry">
+			<h1>Enquiry</h1>
+			<p>To get our service, Please fill in the information enquiry form, we promise to contact you as soon as possible. </p>
+			
+			<form>
+				<label for="name">Name: <span class="required">*</span></label><br>
+				<input type="text" name="name" id = "name" required><br>
+	
+				<label for="Address">Address:<span class="required">*</span></label><br>
+				<input type="text" name="Address" id = "Address" required><br>
+				
+				<label  for="Phone">Phone:<span class="required">*</span></label><br>
+				<input type="text" name="Phone" id = "Phone" required><br>
+				
+				<label  for="Email">Email:<span class="required">*</span></label><br>
+				<input type="Email" name="Email" id = "Email" required><br>
+				
+				<label>Please contact me by:</label>
+				
+					<input type="radio" name="response" id="response-Phone" value="Phone">
+					<label for="response-Phone">Phone</label>
+				
+					<input type="radio" name="response" id="response-Email" value="Email">
+					<label for="response-no">Email</label><br>
+		   
+			 
+			  <label for="Attributes">Attributes:<span class="required">*</span></label><br>
+			  <select>		
+					<option selected disabled>Select...</option>
+					<option name="type" value="first edition">First Edition</option>
+					<option name="type" value="signed">Signed</option>
+					<option name="type" value="duts">Dust Jacket</option>
+			  </select><br>
+			  
+			  <label>Title:<span class="required">*</span></label><br>
+			  <input type="text" name="Title" id="Title" required><br>
+			  
+			  <label>Published Year<span class="required">*</span></label><br>
+			  <input type="date" name="date" max="2018-1-1" min="1700-1-1" required><br>
+			  
+			  <label>Cover Materials:</label><br>
+				
+				<select>		
+					<option selected disabled>Select...</option>
+					<option name="type" value="leathe">Leathe</option>
+					<option name="type" value="cloth">Cloth</option>
+					<option name="type" value="paper">Paper</option>
+					<option name="type" value="parchment">parchment</option>
+					<option name="type" value="other">Other materials</option>
+			  </select><br>
+			
+			  <label>Approximate size of book:</label><br>
+			  <input type="text" name="size"><br>
+				
+			  <label>Additional Comments:</label><br>
+				<textarea id="message" name="message" rows="8" cols="50"></textarea>
+				<br>
+				
+				<input type="submit" id="submit" value="Submit"> <br>
+			
+			
+			</form>
+		
+		</div>
+		
+		<div class="featured-aside">
+			<h2>Featured Book</h2>
+			<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
+			<p><span id="italic-bold">To Kill a Mockingbird</span> is Harper Lee’s 1961 Pulitzer Prize-winning novel about a child’s view of race and justice in the Depression-era South. </p>
+			<h3><a href="featured-author-book.html">Learn more...</a></h3>
+		</div>
+		
+		<div class="contact-us">
+			<div class="location">
+				<p>Location information:</p>
+				<p>119 Colombo Street,Sydenham,Christchurch 8023</p>
+			</div>
+			<div class="email-phone-time">
+				<P>Email address: enquire@yeoldbookshop</p>
+				<P>Phone number: 03 – 3648833</p>
+				<p>Open time: 9am-5pm, 7 days a week.</p>	
+			</div>
+			<div class="share-link">
+				<a href="https://www.facebook.com/"><img class="logo" src="images/facebook.png" alt="Facebook logo"></a>
+				<a href="https://twitter.com/"><img class="logo" src="images/twitter.png" alt="Twitter logo"></a>
+				<a href="https://www.instagram.com/"><img class="logo" src="images/instagram.png" alt="Instagram logo"></a>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<p>&copy; Copyright 2019 Strand Books All Rights Reserved / Privacy Policy</p>
+	</footer>
+	
+</body>
+</html>
