@@ -5,32 +5,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Featured Author/Book</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
+	<script type="text/javascript" src="js/myscript.js"></script>
 </head>
 
 <body>
 	<header>
-		<p id="logo">YeOld Bookshop</p>  
+		<p id="logo">YeOld Bookshop</p>
 		<form action="featured-author-book.html">
 			<input class="search-bar" type="text" value="">
 			<input class="search-bottom" type="submit" value="Search">
-		 </form>		
+		 </form>
 	</header>
 
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about-us.html">About Us</a></li>
-			<li class="selected"><a href="featured-author-book.html">Featured Author/Book</a></li>
-			<li><a href="restorations.html">Restorations</a></li>
-			<li><a href="valuation.html">Valuation</a></li>
-			<li><a href="enquiry.html">Enquiry</a></li>
-		</ul>
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html">Home</a>
+		  <a href="about-us.html">About Us</a>
+		  <a href="featured-author-book.html"  class="active">Featured Author/Book</a>
+		  <a href="restorations.html">Restorations</a>
+		  <a href="valuation.html">Valuation</a>
+		  <a href="enquiry.html">Enquiry</a>
+		  <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction()">
+				<div class="containerIcon" id="myIcon">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+		  </a>
+		</div>
 	</nav>
-	
+
 	<div class="content">
 		<aside class="new-aside">
 			<h2>New Arrivals</h2>
-			
+
 				<div>
 						<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 						<p><a href="book-instruction.html">To Kill a Mockingbird</a></p>
@@ -39,29 +47,29 @@
 						<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 						<p><a href="book-instruction.html">Alice in Wonderland</a></p>
 				</div>
-		
+
 			<h3 id="view-more"><a href="new-arrivals.html">View more</a></h3>
 		</aside>
-		
+
 		<div class="book-mockingbird">
 			<h1>To Kill a Mockingbird</h1>
-			
+
 			<img id="mockingbird" src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 			<p> To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in high schools and middle schools in the United States, it has become a classic of modern American literature, winning the Pulitzer Prize. The plot and characters are loosely based on Lee's observations of her family, her neighbors and an event that occurred near her hometown of Monroeville, Alabama, in 1936, when she was 10 years old.
 			</p>
 			<p>
 			The novel is renowned for its warmth and humor, despite dealing with the serious issues of rape and racial inequality. The narrator's father, Atticus Finch, has served as a moral hero for many readers and as a model of integrity for lawyers. Historian, J. Crespino explains, "In the twentieth century, To Kill a Mockingbird is probably the most widely read book dealing with race in America, and its main character, Atticus Finch, the most enduring fictional image of racial heroism."
 			</p>
-			
+
 			<h2>Author</h2>
-	
+
 			<img id="harper-lee" src="images/harper-lee.jpg" alt="Harper Lee">
-		
+
 			<p><span id="author">Nelle Harper Lee </span>(April 28, 1926 – February 19, 2016) was an American novelist widely known for To Kill a Mockingbird, published in 1960. Immediately successful, it won the 1961 Pulitzer Prize and has become a classic of modern American literature. Though Lee had only published this single book, in 2007 she was awarded the Presidential Medal of Freedom for her contribution to literature.[1] Additionally, Lee received numerous honorary degrees, though she declined to speak on those occasions. She was also known for assisting her close friend Truman Capote in his research for the book In Cold Blood (1966).[2] Capote was the basis for the character Dill in To Kill a Mockingbird.
 			</p>
-		
+
 		</div>
-		
+
 		<div class="contact-us">
 			<div class="location">
 				<p>Location information:</p>
@@ -70,7 +78,7 @@
 			<div class="email-phone-time">
 				<P>Email address: enquire@yeoldbookshop</p>
 				<P>Phone number: 03 – 3648833</p>
-				<p>Open time: 9am-5pm, 7 days a week.</p>	
+				<p>Open time: 9am-5pm, 7 days a week.</p>
 			</div>
 			<div class="share-link">
 				<a href="https://www.facebook.com/"><img class="logo" src="images/facebook.png" alt="Facebook logo"></a>
@@ -79,10 +87,10 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<footer>
 		<p>&copy; Copyright 2019 Strand Books All Rights Reserved / Privacy Policy</p>
 	</footer>
-	
+
 </body>
 </html>

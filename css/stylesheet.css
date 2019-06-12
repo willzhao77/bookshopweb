@@ -365,8 +365,8 @@ img {
 		color:#F4D7EF;
 	}
 
-	nav li:hover {
-		display: block;
+	nav a:hover {
+		 display: block;
 	   background-color: #181F3B;
 	}
 
@@ -400,12 +400,12 @@ img {
 		font-weight: bold;
 	}
 
-	nav li{
+	nav a{
 		font-family: Georgia,"Times New Roman",serif;
 		font-size:1.2em;
 	}
 
-	p,.valuation li {
+	p,.valuation a {
 		margin-bottom: 1em;
 		font-size: 1.2em;
 	}
@@ -588,7 +588,7 @@ img {
 		font-size:2.2em;
 	}
 
-	nav li{
+	nav a{
 	   font-size:0.9em;
 	   padding-top:0.8em;
    }
@@ -709,14 +709,14 @@ img {
 		flex-direction: column;
 	}
 
-	nav li{
+	/* nav li{
 		flex-grow:1;
 		text-align:left;
 		padding-left:2em;
 	   font-weight: bold;
 	   border-bottom:0.2px solid #6A676A;
 	   border-top:0.2px solid #6A676A;
-	}
+	} */
 
 
 	.share-link{
@@ -796,7 +796,7 @@ img {
 		font-family:"Sitka Small",serif;
 		font-size:0.8em;
 	}
-	nav li{
+	nav a{
 	   font-size:1em;
 	   padding-top:0.8em;
    }
@@ -839,60 +839,13 @@ img {
 	}
 
 
-}
-
-
-
-/*  Responsive Navigation */
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-#icon{
-  padding: 7px 8px 0px 8px;
-
-}
-
-@media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 900px) {
+
   .topnav.responsive {
     position: relative;
     display: block;
@@ -907,6 +860,63 @@ body {
     display: block;
     text-align: left;
   }
+  .topnav{
+    display: block;
+    border-top: 0.2px solid #6A676A;
+  }
+  .topnav a{
+    border-top: 0.2px solid #6A676A;
+
+  }
+
+
+}
+
+
+
+/*  Responsive Navigation */
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #5D2143;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 10px 16px; */
+  text-decoration: none;
+
+}
+
+.topnav a:hover {
+  background-color: #181F3B;
+}
+
+.topnav a.active {
+  background-color: #181F3B;
+}
+
+.topnav .icon {
+  display: none;
+  flex-grow: 1
+}
+
+#icon{
+  padding: 7px 8px 0px 8px;
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
 }
 
 

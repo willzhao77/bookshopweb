@@ -5,32 +5,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Featured Author/Book</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
+	<script type="text/javascript" src="js/myscript.js"></script>
 </head>
 
 <body>
 	<header>
-		<p id="logo">YeOld Bookshop</p>     
+		<p id="logo">YeOld Bookshop</p>
 		<form action="featured-author-book.html">
 			<input class="search-bar" type="text" value="">
 			<input class="search-bottom" type="submit" value="Search">
-		 </form>			
+		 </form>
 	</header>
 
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about-us.html">About Us</a></li>
-			<li class="selected"><a href="featured-author-book.html">Featured Author/Book</a></li>
-			<li><a href="restorations.html">Restorations</a></li>
-			<li><a href="valuation.html">Valuation</a></li>
-			<li><a href="enquiry.html">Enquiry</a></li>
-		</ul>
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html">Home</a>
+		  <a href="about-us.html">About Us</a>
+		  <a href="featured-author-book.html" class="active">Featured Author/Book</a>
+		  <a href="restorations.html">Restorations</a>
+		  <a href="valuation.html">Valuation</a>
+		  <a href="enquiry.html">Enquiry</a>
+		  <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction()">
+				<div class="containerIcon" id="myIcon">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+		  </a>
+		</div>
 	</nav>
-	
+
 	<div class="content">
 		<aside class="new-aside">
 			<h2>New Arrivals</h2>
-			
+
 				<div>
 						<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 						<p><a href="book-instruction.html">To Kill a Mockingbird</a></p>
@@ -39,56 +47,56 @@
 						<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 						<p><a href="book-instruction.html">Alice in Wonderland</a></p>
 				</div>
-			
+
 			<h3 id="view-more"><a href="new-arrivals.html">View more</a></h3>
 		</aside>
-		
+
 		<div id="featured-author-book">
 			<h1>Featured Book</h1>
 			<figure>
 				<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 				<figcaption><a href="book-instruction.html">To Kill a Mockingbird</a></figcaption>
 			</figure>
-				
+
 			<figure>
 				<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 				<figcaption><a href="book-instruction.html">Alice in Wonderland</a></figcaption>
 			</figure>
-			
+
 			<figure>
 				<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 				<figcaption><a href="book-instruction.html">To Kill a Mockingbird</a></figcaption>
 			</figure>
-				
+
 			<figure>
 				<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 				<figcaption><a href="book-instruction.html">Alice in Wonderland</a></figcaption>
 			</figure>
-			
+
 			<figure>
 				<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 				<figcaption><a href="book-instruction.html">To Kill a Mockingbird</a></figcaption>
 			</figure>
-				
+
 			<figure>
 				<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 				<figcaption><a href="book-instruction.html">Alice in Wonderland</a></figcaption>
 			</figure>
-			
+
 			<figure>
 				<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 				<figcaption><a href="book-instruction.html">To Kill a Mockingbird</a></figcaption>
 			</figure>
-				
+
 			<figure>
 				<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 				<figcaption><a href="book-instruction.html">Alice in Wonderland</a></figcaption>
 			</figure>
-			
+
 			<h3><a href="featured-author-book.html">Next Page</a></h3>
-		
+
 		</div>
-		
+
 		<div class="contact-us">
 			<div class="location">
 				<p>Location information:</p>
@@ -97,7 +105,7 @@
 			<div class="email-phone-time">
 				<P>Email address: enquire@yeoldbookshop</p>
 				<P>Phone number: 03 – 3648833</p>
-				<p>Open time: 9am-5pm, 7 days a week.</p>	
+				<p>Open time: 9am-5pm, 7 days a week.</p>
 			</div>
 			<div class="share-link">
 				<a href="https://www.facebook.com/"><img class="logo" src="images/facebook.png" alt="Facebook logo"></a>
@@ -106,10 +114,10 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<footer>
 		<p>&copy; Copyright 2019 Strand Books All Rights Reserved / Privacy Policy</p>
 	</footer>
-	
+
 </body>
 </html>

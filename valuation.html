@@ -5,28 +5,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Valuation</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
+	<script type="text/javascript" src="js/myscript.js"></script>
 </head>
 
 <body>
 	<header>
-		<p id="logo">YeOld Bookshop</p> 
+		<p id="logo">YeOld Bookshop</p>
 		<form action="featured-author-book.html">
 			<input class="search-bar" type="text" value="">
 			<input class="search-bottom" type="submit" value="Search">
-		 </form>			
+		 </form>
 	</header>
 
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about-us.html">About Us</a></li>
-			<li><a href="featured-author-book.html">Featured Author/Book</a></li>
-			<li><a href="restorations.html">Restorations</a></li>
-			<li class="selected"><a href="valuation.html">Valuation</a></li>
-			<li><a href="enquiry.html">Enquiry</a></li>
-		</ul>
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html">Home</a>
+		  <a href="about-us.html">About Us</a>
+		  <a href="featured-author-book.html">Featured Author/Book</a>
+		  <a href="restorations.html">Restorations</a>
+		  <a href="valuation.html" class="active">Valuation</a>
+		  <a href="enquiry.html">Enquiry</a>
+		  <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction()">
+				<div class="containerIcon" id="myIcon">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+		  </a>
+		</div>
 	</nav>
-	
+
 	<div class="content">
 		<aside class="new-aside">
 			<h2>New Arrivals</h2>
@@ -38,15 +46,15 @@
 					<img src="images/Alice in Wonderland.jpg" alt="Alice in Wonderland">
 					<p><a href="book-instruction.html">Alice in Wonderland</a></p>
 				</div>
-		
+
 			<h3 id="view-more"><a href="new-arrivals.html">View more</a></h3>
 		</aside>
-		
+
 		<div class="valuation">
 		<h1>Finding the Value of Old Books</h1>
 		<P>Do you have an old or antiquarian book and would like to know its value? You might think it's a rare and valuable book but don't know where to find its value? One very simple method of finding an approximate value of a book is to search for similar copies on yeoldbookshop.com and see what prices are being asked.</p>
 		<a href="enquiry.html">Contact Us Now</a>
-		
+
 		<h2>Key Factors That Influence Book Values</h2>
 		<ul>
 			<li>Condition is very important and will greatly influence value. A beaten-up old book that is falling apart will have little value.</li>
@@ -57,24 +65,24 @@
 			<li>Condition is very important and will greatly influence value. A beaten-up old book that is falling apart will have little value.</li>
 		</ul>
 
-    
-    
-    
-   
-    
 
-		
 
-		
+
+
+
+
+
+
+
 		</div>
-		
+
 		<div class="featured-aside">
 			<h2>Featured Book</h2>
 			<img src="images/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
 			<p><span id="italic-bold">To Kill a Mockingbird</span> is Harper Lee’s 1961 Pulitzer Prize-winning novel about a child’s view of race and justice in the Depression-era South. </p>
 			<h3><a href="featured-author-book.html">Learn more...</a></h3>
 		</div>
-		
+
 		<div class="contact-us">
 			<div class="location">
 				<p>Location information:</p>
@@ -83,7 +91,7 @@
 			<div class="email-phone-time">
 				<P>Email address: enquire@yeoldbookshop</p>
 				<P>Phone number: 03 – 3648833</p>
-				<p>Open time: 9am-5pm, 7 days a week.</p>	
+				<p>Open time: 9am-5pm, 7 days a week.</p>
 			</div>
 			<div class="share-link">
 				<a href="https://www.facebook.com/"><img class="logo" src="images/facebook.png" alt="Facebook logo"></a>
@@ -92,10 +100,10 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<footer>
 		<p>&copy; Copyright 2019 Strand Books All Rights Reserved / Privacy Policy</p>
 	</footer>
-	
+
 </body>
 </html>
