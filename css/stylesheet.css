@@ -185,7 +185,8 @@ img {
 	}
 
 	#logo,footer p{
-		margin-left:10%;
+		text-align: center;
+    color: #aaa;
 		margin-top:0.5em;
 	}
 
