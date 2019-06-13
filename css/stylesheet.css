@@ -7,8 +7,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
 }
 .topnav{
   display: flex;
-  justify-content:
 }
+
+#logo{
+  margin-left: 10%;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -508,6 +512,99 @@ img {
 }
 
 
+
+
+
+
+
+
+
+/*  Responsive Navigation */
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #5D2143;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 10px 16px; */
+  text-decoration: none;
+
+}
+
+.topnav a:hover {
+  background-color: #181F3B;
+}
+
+.topnav a.active {
+  background-color: #181F3B;
+}
+
+.topnav .icon {
+  display: none;
+  flex-grow: 1
+}
+
+#icon{
+  padding: 7px 8px 0px 8px;
+
+}
+
+
+/* css for Animated Menu Icon */
+.containerIcon {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height:5px;
+  background-color: #bbb;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------Tablets,Ipads---------------------------------- */
 
 /* ##Device = Tablets,Ipads(landscape)
@@ -619,6 +716,10 @@ img {
 
 
 }
+
+
+
+
 
 /* ----------------Smartphones & Mobiles-------------------------- */
 
@@ -840,7 +941,12 @@ img {
 	}
 
 
-  .topnav a:not(:first-child) {display: none;}
+  /* .topnav a:not(:first-child) {display: none;} */
+
+  .topnav a{
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -871,83 +977,4 @@ img {
   }
 
 
-}
-
-
-
-/*  Responsive Navigation */
-
-
-
-.topnav {
-  overflow: hidden;
-  background-color: #5D2143;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  /* padding: 10px 16px; */
-  text-decoration: none;
-
-}
-
-.topnav a:hover {
-  background-color: #181F3B;
-}
-
-.topnav a.active {
-  background-color: #181F3B;
-}
-
-.topnav .icon {
-  display: none;
-  flex-grow: 1
-}
-
-#icon{
-  padding: 7px 8px 0px 8px;
-
-}
-
-@media screen and (max-width: 900px) {
-
-}
-
-@media screen and (max-width: 900px) {
-
-}
-
-
-
-
-
-/* css for Animated Menu Icon */
-.containerIcon {
-  display: inline-block;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height:5px;
-  background-color: #bbb;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
 }
